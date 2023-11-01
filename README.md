@@ -23,7 +23,7 @@ The main scripts are as follows:
 - `deduplicate.py`: deduplicates and then gives out the deduplicated paths for each cluster, which can be combined for sampling
 
 ## Compute similarities between datasets and get paths for pruned datasets
-Use `src/sims_and_paths` scripts to compute similarities of eval datasets to LAION in the CLIP embedding space and get paths
+Use `src/sims_and_paths` scripts to compute similarities of eval datasets to LAION in the CLIP embedding space and get paths.
 - `compute_sims.py` : First compute similarities for one small laion or imagenet-train embedding chunk to a given dataset and get top k candidates per eval datapoint.
 - `combine_sims.py` : Combine all the top k similarities of the chunks to get top k overall candidates in LAION.
 - `compute_max_sims.py` : Compute the max similarity for each datapoint one small laion or imagenet-train embedding chunk to a given dataset.
@@ -41,7 +41,7 @@ For training on all subsampled datasets we use: `https://github.com/mlfoundation
 Use `src/eval` scripts to evaluate model on several eval datasets like ImageNet-Sketch/Val/R/V2/A and ObjectNet.
 
 ## Citation
-If you find the insights from the paper or our code base useful, please cite
+If you find the insights from the paper or our code base useful, please cite:
 ```
 @misc{mayilvahanan2023clipood,
       title={Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?}, 
