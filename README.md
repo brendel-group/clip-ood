@@ -1,4 +1,10 @@
-# Code
+# Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?e
+This repository provides the codes for all experiments shown in the paper [Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?](https://arxiv.org/abs/2310.09562).
+
+## Setup
+- use Python 3.9
+- run `pip install -r requirements.txt`
+
 ## Compute embeddings
 ### Compute Imagenet Embedding
 Folder: `src/embeddings/imagenet/`
@@ -36,3 +42,16 @@ For training on all subsampled datasets we use: `https://github.com/mlfoundation
 ## Eval 
 Folder: `src/eval`.
 Evaluate model on several eval datasets like ImageNet-Sketch/Val/R/V2/A and ObjectNet.
+
+## Citation
+If you find the insights from the paper or our code base useful, please cite
+```
+@misc{mayilvahanan2023clipood,
+      title={Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?}, 
+      author={Prasanna Mayilvahanan and Thaddäus Wiedemer and Evgenia Rusak and Matthias Bethge and Wieland Brendel},
+      year={2023},
+      eprint={2310.09562},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
