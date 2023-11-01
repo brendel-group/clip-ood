@@ -1,4 +1,4 @@
-# Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?e
+# Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?
 This repository provides the codes for all experiments shown in the paper [Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?](https://arxiv.org/abs/2310.09562).
 
 ## Setup
