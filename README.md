@@ -41,12 +41,11 @@ Run `src/eval` scripts to evaluate model on several eval datasets like ImageNet-
 ## Citation
 If you find the insights from the paper or our code base useful, please cite:
 ```
-@misc{mayilvahanan2023clipood,
-      title={Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?}, 
-      author={Prasanna Mayilvahanan and Thaddäus Wiedemer and Evgenia Rusak and Matthias Bethge and Wieland Brendel},
-      year={2023},
-      eprint={2310.09562},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{mayilvahanan2024does,
+      title={Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?},
+      author={Prasanna Mayilvahanan and Thadd{\"a}us Wiedemer and Evgenia Rusak and Matthias Bethge and Wieland Brendel},
+      booktitle={The Twelfth International Conference on Learning Representations},
+      year={2024},
+      url={https://openreview.net/forum?id=tnBaiidobu}
 }
 ```
